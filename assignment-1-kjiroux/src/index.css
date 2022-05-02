@@ -1,0 +1,83 @@
+/* 
+ * Kira Jiroux
+ * CS 499 Advanced Web Development
+ * Assignment 1
+ */
+
+.interface {
+    /*border: 3px dotted red;  for test purposes */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.leftColumn {
+    /*border: 3px dotted blue;  for test purposes */
+    width: 39%;
+}
+
+.openButton{
+    margin-bottom: 13px;
+    width: 210px;
+}
+
+.form {
+    padding: 6px;
+    border: 1px solid dimgray;
+    border-radius: 1px;
+}
+
+.inputField {
+    width: 200px;
+    border-radius: 1px;
+}
+
+.formButtons{
+    margin-top: 3px;
+    margin-right: 3px;
+    width: 80px;
+}
+/* ----------------------------------------------------------------- */
+.rightColumn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    /*border: 3px dotted hotpink;  for test purposes */
+    align-content: flex-start;
+}
+
+
+.card {
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid dimgray;
+    border-radius: 1px;
+    text-align: left;
+    display: block;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 200px;
+    height: auto;
+
+}
+
+.deletebutton {
+    width: 25%;
+    padding: 1px;
+}
+
+.captionline {
+    margin: 3px;
+    font-size: medium;
+}
+
+
+
+img {
+    width: 98%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
